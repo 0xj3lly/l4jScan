@@ -10,3 +10,6 @@ Remember to buy your nearest incident responder a beer <3
 
 Usage:
 Just run without arguments as a root user or user with sudo access (for log file & updatedb permissions)
+
+Example:
+![Example Usage](https://github.com/0xj3lly/l4jScan/blob/main/example.png?raw=true)

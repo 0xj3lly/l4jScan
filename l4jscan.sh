@@ -31,6 +31,7 @@ if [ "$(command -v updatedb)" ]; then
   echo -e ${GREEN}"[OK]"${ENDCOLOR}"  No Log4j files discovered via locate"
   fi;
 else
+  echo -e ${YELLOW}"# search files containing log4j with find"${ENDCOLOR}
   OUTPUT="$(find \
       /var /etc /usr /opt /lib* \
       -name "*log4j*" \
